@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Photos</h1>
+        <button type="button">New image +</button>
+    </header>
+    <form action="">
+        <h2>New Image</h2>
+        <input type="url" id="address_new_img" required placeholder="Image's URL">
+        <button type="submit">Add</button>
+        <button type="reset" id="button_cancel">Cancel</button>
+    </form>
+    <ul>
+        <li>
+            <img src="./images/foto1.jpg" alt="cat picture">
+            <div class="overlay_img_link">
+                <a href="./images/foto1.jpg" title="Image in real size" target="_blank">Image in real size</a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto2.jpg" alt="cat picture">
+            <div class="overlay_img_link">
+                <a href="./images/foto2.jpg" title="Image in real size" target="_blank">Image in real size</a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto3.jpg" alt="cat picture">
+            <div class="overlay_img_link">
+                <a href="./images/foto3.jpg" title="Image in real size" target="_blank">Image in real size</a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
